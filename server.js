@@ -1,4 +1,4 @@
-const {secret} = require("./app/config/auth-config.js");
+const config = require("./app/config/auth-config.js");
 const {setup} = require("./app/db/setup.js");
 const userRouter = require("./app/db/routes/userRoutes.js");
 
